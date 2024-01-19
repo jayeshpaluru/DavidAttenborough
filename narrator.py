@@ -7,7 +7,7 @@ import simpleaudio as sa
 import errno
 from elevenlabs import generate, play, voices
 
-client = OpenAI()
+client = OpenAI(api_key="api-key-here")
 
 
 def encode_image(image_path):
